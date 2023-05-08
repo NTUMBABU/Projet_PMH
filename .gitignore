@@ -5,6 +5,7 @@
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
+.idea/
 .flutter-plugins
 .flutter-plugins-dependencies
 .fvm/flutter_sdk
@@ -83,5 +84,11 @@ lib/generated_plugin_registrant.dart
 # Ignore all local history of files
 .history
 .ionide
+
+#######
+.metadata
+analysis_options.yamal
+apps.iml
+windows/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,flutter
