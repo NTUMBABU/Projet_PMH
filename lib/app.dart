@@ -45,10 +45,11 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
           children: _kTabPages, 
         ),
         bottomNavigationBar: Material(
-          color: Colors.blue,
+          color: Color(0xFFECEFF1),
           child: TabBar(
             tabs: _kTabs,
             controller: _tabController,
+            labelColor:const Color(0xFF78909C),
           ),
         ),
       ),
