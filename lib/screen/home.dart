@@ -9,8 +9,8 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     final kTabPages = <Widget>[Aide(),MapD()];
     final kTabs = <Tab>[
-      const Tab(icon: Icon(Icons.cloud), text: 'Aide'),
-      const Tab(icon: Icon(Icons.alarm), text: 'Cherchez')
+      const Tab(icon: Icon(Icons.live_help), text: 'Aide'),
+      const Tab(icon: Icon(Icons.map_outlined), text: 'Cherchez')
     ];
     return DefaultTabController(
       length: 2,
