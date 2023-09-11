@@ -1,7 +1,11 @@
-import 'package:apps/screen/camera.dart';
+import 'dart:ui';
+import 'package:apps/screen/cameraPge.dart';
 import 'package:apps/screen/chate.dart';
 import 'package:flutter/material.dart';
 import 'screen/home.dart';
+
+import 'package:camera/camera.dart';
+
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -14,7 +18,7 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
 
   late TabController _tabController;
 
-  static const _kTabPages = <Widget>[Home(),Camera(),Chate(),];
+  static const _kTabPages = <Widget>[Home(),CameraPge(),Chate(),];
 
   static const _kTabs = <Tab>[
     Tab(icon: Icon(Icons.home_sharp), text: 'Home',),
