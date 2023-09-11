@@ -38,6 +38,10 @@ class _ChateState extends State<Chate> {
   @override
   Widget build(BuildContext context){
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('FedBack', style: TextStyle(color: Color(0xFFECEFF1))),
+        backgroundColor: const Color(0xFF90A4AE),
+      ),
       body: FutureBuilder(
         future: handler.retrieveUser(),
         builder: (BuildContext context, AsyncSnapshot<List<User>> snapshot){
